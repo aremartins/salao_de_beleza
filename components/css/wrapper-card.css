@@ -1,6 +1,7 @@
 .wrapper-card {
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around; 
+    
 }
 
 .card-legend {
@@ -11,8 +12,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 380px;
-    height: 260px;
+    width: 330px;
+    height: 210px;
     box-shadow: 3px 3px 5px #000;
     border:1px solid #fff;
     border-radius: 2px;    
