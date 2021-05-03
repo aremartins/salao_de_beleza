@@ -1,0 +1,58 @@
+.imgMain-banner {
+    display: inline-block;
+    width:100%;    
+}
+
+.main-banner{
+    position: relative;
+}
+
+.main-services {    
+    position: absolute;
+    top:100px;
+    left:200px;
+    font-family: 'Great Vibes', cursive;
+    line-height: 40px;
+}
+
+.main-services a{
+    font-size: 40px;
+    font-family: 'Parisienne', cursive;
+    text-decoration: none;
+    color:#D9A91A;    
+    cursor:pointer;
+    font-weight:600;
+}
+
+.main-services a:before{
+    content:'٭';    
+    cursor:pointer;
+}
+
+.main-services li{
+    margin-bottom: 25px;
+    transition: 200ms ease-in-out;
+
+}
+
+.main-services li:hover{
+    transform:scale(1.08);
+}
+
+.main-services li button {
+    background-image: linear-gradient(90deg,#A6600A,#F68501);
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding:10px;
+    border-radius: 10px;
+    transition: 200ms ease-in-out;
+}
+
+.main-services li button:hover {
+    transform: scale(1.08);
+    background-image: linear-gradient(90deg,#e97d01,#ff8800);
+    cursor: pointer;
+}
+

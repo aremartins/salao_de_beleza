@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valeria Soares</title>
+    <link rel="stylesheet" href="components/css/reset.css">
+    <link rel="stylesheet" href="components/css/main-header.css">
+    <link rel="stylesheet" href="components/css/main-banner.css">
+    <link rel="stylesheet" href="components/css/main-about.css">
+    <link rel="stylesheet" href="components/css/main-title.css">
+    <link rel="stylesheet" href="components/css/services-images.css">
+    <link rel="stylesheet" href="components/css/wrapper-card.css">    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Noto+Sans&family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<script>
+    function mudafoto(foto){
+        document.getElementById("icone").src=foto;
+    }
+</script>
+<body>
+    <div class="top">
+        <ul>
+            <li>Telefone: (11) 4634-1991</li>
+            <li id="socialMedia">
+                <ul>
+                    <li><img src="https://image.freepik.com/vetores-gratis/instagram-icone-novo_1057-2227.jpg" alt=""></li>
+                    <li><img src="https://i.pinimg.com/originals/70/f9/36/70f936294a1f0f3949a9205df9340d5e.png" alt=""></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+      
+    <header>            
+        <div class="box-header">
+            <img class="logo" src="assets/images/logo.jpg" alt="logo Valeria Soares"></h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Servicos</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+       <section class="main-banner">
+            <img class="imgMain-banner" src="assets/images/banner-modelopaisagemrigth.jpg" alt="">
+            <ul class="main-services">
+                <li><a href="">Dia da noiva</a></li>
+                <li><a href="">Limpeza de pele</a></li>
+                <li><a href="">Massagens</a></li>
+                <li><a href="">Maquiagem</a></li>
+                <li><button type="submit">Agende um horário</button></li>
+                
+            </ul>  
+       </section>          
+    
+    <section class="main-about">
+        <h1 class="main-title">Sobre Valéria Soares Produtora de beleza</h1>        
+        <div class="about">
+            <img class="img-about" src="assets/images/valeria.jpg" alt="Foto da Valéria Soares">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eius harum dolor nam, labore expedita fugit atque. Fugit exercitationem, odit asperiores expedita sint voluptate dolore, quis reiciendis debitis optio eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eius harum dolor nam, labore expedita fugit atque. Fugit exercitationem, odit asperiores expedita sint voluptate dolore, quis reiciendis debitis optio eligendi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eius harum dolor nam, labore expedita fugit atque. Fugit exercitationem, odit asperiores expedita sint voluptate dolore, quis reiciendis debitis optio eligendi.
+            </p>
+        </div>        
+    </section>
+  <section class="services-images">   
+        <h2 class="main-title -second">Nossos serviços</h2>     
+       <div class="services">
+            <ul class="services-list">
+            <li onclick="mudafoto('assets/images/penteados.jpg')">Cortes com visagista</li>
+            <li onclick="mudafoto('assets/images/make.jpg')">Maquiagem</li>
+            <li onclick="mudafoto('assets/images/maquiagem.jpg')">Tratamentos de pele</li>
+            <li onclick="mudafoto('assets/images/noivaprep.jpg')">Preparação de noivas</li>
+            <li onclick="mudafoto('assets/images/penteados.jpg')">Preparação de madrinhas</li>
+            <li onclick="mudafoto('assets/images/penteados.jpg')">Depilação</li>
+            
+
+            
+            </ul>
+            <img class="services" id="icone" src="assets/images/fernanda-nuso-amr8fdAVhtg-unsplash.jpg" alt="">
+       </div>
+  </section>
+</ul>
+    <section class="section-cards">
+        <h2 class="main-title -second">Nossos espaços</h2>
+        <div class="wrapper-card">          
+            <figure class="card-legend" >
+                <img src="assets/images/sala-noiva.jpg" alt="">
+                <figcaption>
+                 <h3>Sala da noiva </h3> 
+                 <p>Espaço exclusivo.</p> 
+                </figcaption>
+            </figure>
+            <figure class="card-legend">
+                <img src="assets/images/banheira.jpg" alt="">
+                <figcaption>
+                    <h3>Ofurô </h3> 
+                    <p>Sala de massagem com ofurô.</p>
+                </figcaption>
+            </figure>
+            <figure class="card-legend">
+                <img src="assets/images/salao.jpg" alt="">
+                <figcaption>
+                    <h3>Sala principal </h3> 
+                    <p>Salão de serviços</p>
+                </figcaption>
+            </figure>
+        </div>        
+    </section>
+    
+    
+    
+</body>
+</html>

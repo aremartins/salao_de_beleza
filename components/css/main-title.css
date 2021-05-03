@@ -1,0 +1,11 @@
+.main-title{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:32px;
+}
+
+.main-title.-second {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

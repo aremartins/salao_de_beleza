@@ -1,0 +1,65 @@
+.top{
+    background-color:#050704;
+    color:#FDD865;
+    width: auto;
+    margin: auto;
+
+}
+.top ul li{
+    display: inline-block;
+    padding:0px 5px 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#socialMedia {
+    margin-left: 800px;
+}
+
+#socialMedia img{
+    width: 20px;
+    height: 20px;
+    margin-top:10px;
+}
+
+
+.logo{
+    text-align: center;
+    width:150px;
+    height: 150px;
+}
+
+header {
+    padding:20px 0;
+    background-color: #F2F2F2;
+}
+
+.box-header {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    font-family: 'Noto Sans', sans-serif;
+    position: absolute;
+    top:100px;
+    right:0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;    
+}
+
+nav a{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    color: #D9A91A;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #BF8211;
+    text-decoration: underline;
+}
