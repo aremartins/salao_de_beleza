@@ -3,6 +3,10 @@
     background: linear-gradient( #fefe, #888);  
 }
 
+.section-map .main-title.-second {
+    margin-bottom: 2rem;
+}
+
 .content-map{
     width: 940px;
     margin:0 auto;

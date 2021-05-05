@@ -1,6 +1,7 @@
 .services-images{
     padding:50px 20px;
     margin: auto;
+    background-color: #fefe;
 }
 
 .services {
@@ -22,7 +23,8 @@
 .services .services-list li{
     margin-bottom: 10px;
     padding: 5px;
-    line-height: 20px;    
+    line-height: 20px; 
+    transition: 400ms ease-in-out;   
 }
 
 .services-images img {
@@ -32,3 +34,4 @@
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
     margin-left: 50px;
 }
+

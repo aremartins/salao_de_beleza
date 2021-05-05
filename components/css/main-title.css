@@ -2,10 +2,13 @@
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size:32px;
+    color: #D9A91A;
 }
 
 .main-title.-second {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #D9A91A;
+    margin-bottom: 2rem;
 }
