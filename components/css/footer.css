@@ -1,0 +1,9 @@
+footer {
+    background: rgb(128, 127, 127);
+    padding:5px;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Noto sans';
+}
